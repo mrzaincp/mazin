@@ -246,3 +246,38 @@ font-size:20px;
 margin-bottom:30px;
 color:#fff;
 }
+del{
+color:#999;
+font-size:18px;
+margin-right:8px;
+}
+
+.featured h2{
+font-size:36px;
+margin-bottom:35px;
+color:#333;
+text-align:center;
+}
+
+.product h4{
+font-size:26px;
+font-weight:bold;
+}
+
+.product{
+position:relative;
+overflow:hidden;
+}
+
+.product::before{
+content:"SALE";
+position:absolute;
+top:15px;
+left:15px;
+background:#ff2d78;
+color:#fff;
+padding:6px 12px;
+border-radius:20px;
+font-size:12px;
+font-weight:bold;
+}
