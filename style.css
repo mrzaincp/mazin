@@ -221,3 +221,28 @@ padding:80px 20px;
 }
 
 }
+.offer-banner{
+margin:60px 8%;
+background:linear-gradient(135deg,#ff4f90,#ff8bb8);
+border-radius:25px;
+padding:60px 30px;
+text-align:center;
+color:white;
+box-shadow:0 10px 30px rgba(0,0,0,.15);
+}
+
+.offer-banner h2{
+font-size:24px;
+letter-spacing:2px;
+}
+
+.offer-banner h1{
+font-size:52px;
+margin:15px 0;
+}
+
+.offer-banner p{
+font-size:20px;
+margin-bottom:30px;
+color:#fff;
+}
